@@ -1,16 +1,16 @@
 #!/bin/bash
 # case example
 case $1 in
-    start)
-        echo starting
+    gato)
+        echo Miau
         ;;
-    stop)
-        echo stoping
+    perro)
+        echo Guau
         ;;
-    restart)
-    echo restarting
+    vaca)
+    echo Muuu
         ;;
     *)
-        echo don\'t know
+        echo otro gato
         ;;
 esac

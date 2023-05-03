@@ -1,11 +1,11 @@
 #!/bin/bash
 # elif statements
-if [ $1 -ge 18 ]
+if [ $1 -ge 20 ]
 then
-    echo You may go to the party.
-elif [ $2 == 'yes' ]
+    echo Party.
+elif [ $2 -ge 15 ]
 then
-    echo You may go to the party but be back before midnight.
+    echo Party with brothers.
 else
-    echo You may not go to the party.
+    echo No party.
 fi

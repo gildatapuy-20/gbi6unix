@@ -5,5 +5,5 @@ while [ $counter -gt 0 ]
 do
    factorial=$(( $factorial * $counter ))
    counter=$(( $counter - 1 ))
+   echo "$counter $factorial"
 done
-echo "$factorial"

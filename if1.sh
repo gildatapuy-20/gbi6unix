@@ -1,6 +1,6 @@
 #!/bin/bash
 # Basic if statement
-if [ $1 -gt 100 ]
+if [ $1 -gt 80 ]
 then
-echo "Hey that's a large number".
+echo "Hola".
 fi
